@@ -24,9 +24,9 @@ return {
       show_time = true,
 
       -- Rich Presence text options
-      editing_text = 'Editing %s',
-      file_explorer_text = 'Browsing %s',
-      git_commit_text = 'Committing changes',
+      editing_text = 'Editing %s like a boss',
+      file_explorer_text = 'Browsing %s like a hacker',
+      git_commit_text = 'Committing changes like a pro',
       plugin_manager_text = 'Managing plugins',
       reading_text = 'Reading %s',
       workspace_text = 'Working on %s',
