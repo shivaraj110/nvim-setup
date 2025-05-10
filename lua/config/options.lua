@@ -1,0 +1,21 @@
+-- Options are automatically loaded before lazy.nvim startup
+-- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
+-- Add any additional options here
+-- vim.diagnostic.handlers["my/notify"] = {
+--   show = function(namespace, bufnr, diagnostics, opts)
+--     -- In our example, the opts table has a "log_level" option
+--     local level = opts["my/notify"].log_level
+--     local name = vim.diagnostic.get_namespace(namespace).name
+--     local msg = string.format("%d diagnostics in buffer %d from %s", #diagnostics, bufnr, name)
+--     vim.notify(msg, level)
+--   end,
+-- }
+-- -- Users can configure the handler
+-- vim.diagnostic.config({
+--   ["my/notify"] = {
+--     log_level = vim.log.levels.INFO,
+--     -- This handler will only receive "error" diagnostics.
+--     severity = vim.diagnostic.severity.ERROR,
+--   },
+-- })
+vim.diagnostic.config({ virtual_text = true })
